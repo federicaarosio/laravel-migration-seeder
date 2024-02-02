@@ -1,5 +1,5 @@
 <header>
-    <h2>
+    <pre>
         Header
-    </h2>
+    </pre>
 </header>

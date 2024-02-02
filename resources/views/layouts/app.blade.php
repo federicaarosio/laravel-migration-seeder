@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>@yield('title','Laravel App Title')</title>
+        <title>@yield('title','Laravel 10 Migration & Seeder')</title>
         @vite('resources/js/app.js')
 
         @yield('head-content')
