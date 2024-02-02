@@ -9,8 +9,7 @@ use Illuminate\Http\Request;
 class TrainController extends Controller
 {
     public function index() {
-        // $trains = Train::all();
-        $trains = [];
+        $trains = Train::all();
         return view('guest.train.index', ['trains' => $trains]);
     }
 }

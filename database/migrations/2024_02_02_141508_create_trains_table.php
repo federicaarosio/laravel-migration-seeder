@@ -23,8 +23,6 @@ return new class extends Migration
             $table->integer('wagon_number');
             $table->boolean('on_time');
             $table->boolean('deleted');
-            
-            $table->boolean('cancelled');
 
             $table->timestamps();
         });
