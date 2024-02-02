@@ -1,1 +1,15 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: #f9eddd;
+}
+
+img.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+h1, strong {
+    color: #ba2a1a;
+    text-transform: uppercase;
+}

@@ -7,6 +7,8 @@
             <div class="col-4">
                 <div class="train-info card mb-3">
                     <div class="card-body">
+                        <img src="https://static.vecteezy.com/system/resources/previews/004/895/875/non_2x/high-speed-train-metro-railway-illustration-free-vector.jpg" class="card-img-top" alt="train illustration">
+
                         <div>
                             <strong>Train n°: </strong> {{ $train-> train_code }}
                         </div>
